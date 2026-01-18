@@ -294,3 +294,4 @@ pooled_model <- pool(models) # some warnings may appear referring to dates havin
 main_model <- summary(pooled_model)
 main_model
 
+# end of R script
