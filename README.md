@@ -34,5 +34,4 @@ The mock datasets are intended solely for code reproducibility, not for scientif
 
 ### Contact
 For questions about the analysis or data structure, please contact:
-Augusto Ferraris, MD, MPH - UW, Seattle, WA
-Email: aferra@uw.edu
+Augusto Ferraris, MD, MPH - UW, Seattle, WA | Email: aferra@uw.edu
