@@ -76,11 +76,8 @@ follow_up <- 365*5 # change this for sensitivity analyses
 # load data
 data_dir <- "path/to/your/data"   # <-- users edit this
 
-#long <- read.csv(file.path(data_dir, "long_mock.csv"))
-#baseline_data <- read.csv(file.path(data_dir, "baseline_mock.csv"))
-
-long <- read.csv( "long_mock.csv")
-baseline_data <- read.csv("baseline_mock.csv")
+long <- read.csv(file.path(data_dir, "long_mock.csv"))
+baseline_data <- read.csv(file.path(data_dir, "baseline_mock.csv"))
 
 ####################################
 # important definitions for MICE 
@@ -295,3 +292,4 @@ main_model <- summary(pooled_model)
 main_model
 
 # end of R script
+
