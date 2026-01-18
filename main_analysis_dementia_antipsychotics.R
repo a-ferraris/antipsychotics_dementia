@@ -3,7 +3,7 @@
 # Script Author: AF
 # Contact: aferra@uw.edu
 # Institutions: Hospital Italiano de Buenos Aires (HIBA); University of Washington (UW)
-# Version: February 2025
+# Version: January 2026
 #
 # Objective: Following PLOS Mental Health policies, we published a version of the code used 
 # that  is intended to show the key features of the analysis implemented in the manuscript. 
@@ -52,7 +52,7 @@
 #
 # Reproducibility:
 #   - Users should update file paths to match their local environment.
-#   - For reproducible environments, consider using renv or sessionInfo().
+#  
 ###############################################################################
 
 # code starts. 
@@ -292,4 +292,5 @@ main_model <- summary(pooled_model)
 main_model
 
 # end of R script
+
 
